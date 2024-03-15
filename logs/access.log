@@ -1,0 +1,17 @@
+
+POST /auth/register 400 31.392 ms PostmanRuntime/7.32.1 Wed, 28 Feb 2024 14:05:48 GMT - errormessage: 至少一大寫、一小寫字母和數字 長度大於8 不包含特殊字符
+POST /auth/register 400 25.893 ms PostmanRuntime/7.32.1 Wed, 28 Feb 2024 14:06:16 GMT - errormessage: "body.role" is not allowed
+POST /auth/register 201 80.996 ms PostmanRuntime/7.32.1 Wed, 28 Feb 2024 14:09:37 GMT
+POST /auth/register 400 4.462 ms PostmanRuntime/7.32.1 Wed, 28 Feb 2024 14:11:15 GMT - errormessage: "body.role" is required
+POST /auth/register 400 3.165 ms PostmanRuntime/7.32.1 Wed, 28 Feb 2024 14:11:57 GMT - errormessage: "body.role" is not allowed to be empty
+POST /auth/register 400 4.939 ms PostmanRuntime/7.32.1 Wed, 28 Feb 2024 14:12:05 GMT - errormessage: Email already taken
+POST /auth/register 201 27.359 ms PostmanRuntime/7.32.1 Wed, 28 Feb 2024 14:12:45 GMT
+POST /auth/login 200 190.996 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:04:30 GMT
+GET /blogs 401 3.984 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:07:59 GMT - errormessage: please authenticate
+GET /blogs 200 25.463 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:08:23 GMT
+POST /blog 401 2.628 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:11:23 GMT - errormessage: please authenticate
+POST /blog 401 2.494 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:11:31 GMT - errormessage: please authenticate
+POST /blog 201 17.955 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:11:48 GMT
+POST /blog 201 4.567 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:12:20 GMT
+POST /blog 400 7.106 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:12:46 GMT - errormessage: "body.title" is not allowed to be empty
+POST /blog 400 5.136 ms PostmanRuntime/7.32.1 Sat, 02 Mar 2024 14:12:58 GMT - errormessage: "body.description" is not allowed to be empty

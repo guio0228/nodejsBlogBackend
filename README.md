@@ -1,2 +1,2 @@
 npm i
-nodejs製作的後端CRUD登入方式是以JWT的令牌翻轉去做的
+nodejs製作的後端CRUD登入方式是以JWT的令牌翻轉去做的實現winston的log紀錄
